@@ -205,9 +205,9 @@ a {
     }
 
     .header-content__img {
+      display: block;
       width: auto;
       height: auto;
-      display: block;
     }
   }
 }
@@ -254,6 +254,7 @@ a {
 
     .portfolio-card {
       .portfolio-items__img {
+        display: block;
         margin-bottom: 4rem;
       }
 

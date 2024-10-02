@@ -1,6 +1,5 @@
 const navigationList = document.querySelector(".navigation-list");
 const navigationLink = document.querySelectorAll(".navigation-link");
-const headerContentImg = document.querySelector(".header-content__img");
 const burger = document.querySelector(".navigation-burger-button");
 
 const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth; // Высчитывание длинны скроллбара, чтобы при дальнейшем скрытии контент не сдвигался

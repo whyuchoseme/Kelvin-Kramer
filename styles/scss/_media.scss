@@ -137,6 +137,14 @@
 
       .footer-content__link {
         margin-bottom: 7rem;
+
+        &:hover {
+          background-color: black;
+        }
+
+        &:active {
+          background-color: rgb(48, 48, 48);
+        }
       }
 
       .footer-content__social {
@@ -153,9 +161,6 @@
 }
 
 @media (max-width: 768px) {
-}
-
-@media (max-width: 425px) {
   .header .header-content .header-content__info {
     h1 {
       font-size: 3.3rem;
@@ -164,6 +169,14 @@
 
     p {
       font-size: 1.3rem;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .header .header-content .header-content__info {
+    h1 {
+      font-size: 2.8rem;
     }
   }
 
@@ -187,13 +200,19 @@
 @media (max-width: 375px) {
   .header .header-content .header-content__info {
     h1 {
-      font-size: 2.7rem;
+      font-size: 2.3rem;
+    }
+
+    p {
+      span {
+        display: inline;
+      }
     }
   }
 }
 
 @media (max-width: 320px) {
   html {
-    font-size: 9px;
+    font-size: 8.7px;
   }
 }
