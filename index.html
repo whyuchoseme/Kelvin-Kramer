@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebAcademy</title>
+    <title>Kelvin Kramer</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/css/main.css" />
-    <!-- <link rel="stylesheet" href="./styles/css/media.css" /> -->
   </head>
   <body>
     <header class="header">
@@ -40,12 +40,17 @@
               York City. <span>During my thirteen year tenure here.</span>
             </p>
           </div>
-
-          <img
-            class="header-content__img"
-            src="./img/header-img.png"
-            alt="header-img"
-          />
+          <picture>
+            <source
+              media="(max-width: 1024px)"
+              srcset="./img/header/header-img-mobile.png"
+            />
+            <img
+              class="header-content__img"
+              src="./img/header/header-img.png"
+              alt="header-img"
+            />
+          </picture>
         </div>
       </div>
     </header>
@@ -57,7 +62,7 @@
             <div class="services-card">
               <img
                 class="services-items__img"
-                src="./img/services-graphic.svg"
+                src="./img/main/services/services-graphic.svg"
                 alt="UI/UX Design"
               />
               <h3>UI/UX Design</h3>
@@ -69,7 +74,7 @@
             <div class="services-card">
               <img
                 class="services-items__img"
-                src="./img/services-startup.svg"
+                src="./img/main/services/services-startup.svg"
                 alt="Development"
               />
               <h3>Development</h3>
@@ -81,7 +86,7 @@
             <div class="services-card">
               <img
                 class="services-items__img"
-                src="./img/services-browser.svg"
+                src="./img/main/services/services-browser.svg"
                 alt="Software testing"
               />
               <h3>Software testing</h3>
@@ -99,31 +104,55 @@
           <h2 class="title">Portfolio</h2>
           <div class="portfolio-items">
             <div class="portfolio-card">
-              <img
-                class="portfolio-items__img"
-                src="./img/portfolio-online-fashion-store.jpeg"
-                alt="Online fashion store - Homepage"
-              />
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/main/portfolio/portfolio-online-fashion-store-mobile.jpeg
+                  "
+                />
+                <img
+                  class="portfolio-items__img"
+                  src="./img/main/portfolio/portfolio-online-fashion-store.jpeg"
+                  alt="Online fashion store - Homepage"
+                />
+              </picture>
               <h3><a href="#!">Online fashion store - Homepage</a></h3>
             </div>
           </div>
           <div class="portfolio-items">
             <div class="portfolio-card">
-              <img
-                class="portfolio-items__img"
-                src="./img/portfolio-reebok-store.jpeg"
-                alt="Online fashion store - Homepage"
-              />
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/main/portfolio/portfolio-reebok-store-mobile.jpeg
+                  "
+                />
+                <img
+                  class="portfolio-items__img"
+                  src="./img/main/portfolio/portfolio-reebok-store.jpeg"
+                  alt="Online fashion store - Homepage"
+                />
+              </picture>
               <h3><a href="#!">Reebok Store - Concept</a></h3>
             </div>
           </div>
           <div class="portfolio-items">
             <div class="portfolio-card">
-              <img
-                class="portfolio-items__img"
-                src="./img/portfolio-braun-landing-page.jpeg"
-                alt="Online fashion store - Homepage"
-              />
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="
+                    ./img/main/portfolio/portfolio-braun-landing-page-mobile.jpeg
+                  "
+                />
+                <img
+                  class="portfolio-items__img"
+                  src="./img/main/portfolio/portfolio-braun-landing-page.jpeg"
+                  alt="Online fashion store - Homepage"
+                />
+              </picture>
               <h3><a href="#!">Braun Landing Page - Concept</a></h3>
             </div>
           </div>
@@ -134,7 +163,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <h2 class="title">Contact</h2>
+          <h2 class="title title-contact">Contact</h2>
           <p>Want to know more or just chat? <span>You are welcome!</span></p>
           <a class="footer-content__link" href="#!">Send message</a>
           <div class="footer-content__social">
@@ -142,28 +171,28 @@
               <a class="social-items__link" href="#!">
                 <img
                   class="social-items__img"
-                  src="./img/LinkedIn.svg"
+                  src="./img/footer/linkedIn.svg"
                   alt="LinkedIn"
                 />
               </a>
               <a class="social-items__link" href="#!">
                 <img
                   class="social-items__img"
-                  src="./img/Instargam.svg"
+                  src="./img/footer/instargam.svg"
                   alt="Instargam"
                 />
               </a>
               <a class="social-items__link" href="#!">
                 <img
                   class="social-items__img"
-                  src="./img/Behance.svg"
+                  src="./img/footer/behance.svg"
                   alt="Behance"
                 />
               </a>
               <a class="social-items__link" href="#!">
                 <img
                   class="social-items__img"
-                  src="./img/Dribble.svg"
+                  src="./img/footer/dribble.svg"
                   alt="Dribble"
                 />
               </a>
