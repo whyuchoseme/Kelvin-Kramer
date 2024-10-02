@@ -289,7 +289,6 @@ a {
 
 @media (max-width: 1049px) {
   * {
-    touch-action: none;
     -webkit-tap-highlight-color: transparent;
   }
   .title {
